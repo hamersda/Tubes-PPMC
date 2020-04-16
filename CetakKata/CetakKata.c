@@ -11,7 +11,7 @@ void CetakKata(int n)
     printf("...");
     for(k=0;k<(jumlahrandom-n);k++)//k ini indeks untuk jumlah kata random yang tercetak
     {
-        if (n_gram.value[i]==1)//jika di value cuma ada 1 nilai maka mencetak nilai selanjutnya diambil dari value yg diincremenr;
+        if (n_gram.value[i]==1);//jika di value cuma ada 1 nilai maka mencetak nilai selanjutnya diambil dari value yg diincrement
         {
             kata_dicetak=(n_gram.value[j]+" ");
             printf("%c",kata_dicetak);
