@@ -14,6 +14,7 @@ void CetakKata(int n)
         if (tabel.value[j]==1)//jika di value cuma ada 1 nilai maka mencetak nilai selanjutnya diambil dari value yg diincremenr;
         {
             kata_dicetak=(tabel.value[j]+" ");
+            printf("%c", kata_dicetak);
         }
         else if (tabel.value[j]==2)
         {
