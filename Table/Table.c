@@ -1,3 +1,4 @@
+//Contoh pemakaian di prototype
 #include "stdio.h"
 #include "string.h"
 #include "stdlib.h"
@@ -40,7 +41,7 @@ void printTable(struct n_gram *head) {
     } 
 }
 
-//Prosedur table_ngram, dengan inisiasi struct n_gram *head=NULL;
+//Prosedur table_ngram, dengan inisiasi di main struct n_gram *head=NULL;
 void table_ngram(char **w,int tingkat,int n,struct n_gram **head_ref){
     int i;
     char temp[30];
