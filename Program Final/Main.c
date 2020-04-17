@@ -45,7 +45,7 @@ void main(){
         printf("Apakah anda ingin memasukan kata lagi?\n");
         printf("Ketik 1 jika ya, ketik 0 jika tidak");
         scanf("%d",&boolean);
-        while (boolean!= 1 || boolean!= 0){
+        while (boolean!= 1 && boolean!= 0){
             printf("Input salah silahkan masukkan input kembali");
             scanf("%d",&boolean);
         }
@@ -59,7 +59,7 @@ void main(){
         printf("Apakah anda ingin memilih file referensi lagi?\n");
         printf("Ketik 1 jika ya, ketik 0 jika tidak");
         scanf("%d",&boolean);
-        while (boolean!= 1 || boolean!= 0){
+        while (boolean!= 1 && boolean!= 0){
             printf("Input salah silahkan masukkan input kembali");
             scanf("%d",&boolean);
         }
