@@ -15,7 +15,7 @@ char PecahKata( char *kata)
 {
     char kalimat[100];
     char *kata = kalimat;
-    char array_words[10][10]; 
+    char array_words[999][10]; 
     int i,j,cnt;
     j=0; 
     cnt=0;
