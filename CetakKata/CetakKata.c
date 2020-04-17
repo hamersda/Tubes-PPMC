@@ -9,6 +9,8 @@ char CetakKata(int nkata, struct n_gram *ambiltabel)
     char kata_dicetak;
     kataawalacak=rand()%i+1;//i ini indeksnya si key milih key random dulu buat awalan
     printf("...");
+    printf("%s", ambiltabel->key[kataawalacak]);
+    i=kataawalacak;
     for(k=0;k<(nkata-tingkat);k++)//k ini indeks untuk menghitung jumlah kata random yang tercetak
     {
         if (ambiltabel->value[i]==1)//jika di value cuma ada 1 nilai maka mencetak nilai selanjutnya diambil dari value yg diincrement
@@ -30,4 +32,3 @@ char CetakKata(int nkata, struct n_gram *ambiltabel)
     }
     printf("...");
 }
-
