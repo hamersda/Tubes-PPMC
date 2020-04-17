@@ -2,9 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-char * PecahKata( char *kata)
+char PecahKata( char *kata)
 {
-    char *array_words[10][10]; 
+    char array_words[10][10]; 
     int i,j,cnt;
     j=0; 
     cnt=0;
