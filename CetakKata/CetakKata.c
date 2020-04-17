@@ -21,6 +21,7 @@ char CetakKata(int nkata, struct n_gram *ambiltabel)
             pilihrandomvalue=rand()%2+1;
             strcat(ambiltabel->value[pilihrandomvalue], ambiltabel->key[pilihrandomvalue+1]);
         }
+        i=i+1;
     }
     printf("...");
 }
