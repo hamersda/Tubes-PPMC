@@ -12,6 +12,8 @@
 #include<string.h>
 #include"Table.h"
 #include"PilihFile.h"
+#include"PecahKata.h"
+#include"CetakKata.h"
 struct n_gram{
     char key[50];
     char value[10];
@@ -29,7 +31,7 @@ void main(){
     switch(menu){
     case 1:
         PilihFile(&kata);
-        // parsing
+        PecahKata(kata);
         menu = 2;
     case 2:
         printf("Masukkan jumlah n pada n-gram yang anda inginkan");
