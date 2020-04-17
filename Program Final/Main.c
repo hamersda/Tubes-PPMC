@@ -39,7 +39,7 @@ void main(){
     case 3:
         printf("Masukkan jumlah kata yang ingin dicetak");
         scanf("%d",&nkata);
-        //cetak kata
+        CetakKata(nkata);
         menu = 4;
     case 4:
         printf("Apakah anda ingin memasukan kata lagi?\n");
