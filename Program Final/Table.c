@@ -36,7 +36,7 @@ void push(struct n_gram **head_ref, char key[50],char value[10]) {
         ptr1->next = ptr1; /*For the first node */
     *head_ref = ptr1; 
 } 
-
+/*
 //Procedure print key linked list
 void printTable(struct n_gram *head) { 
     struct n_gram *temp = head; 
@@ -47,7 +47,7 @@ void printTable(struct n_gram *head) {
         } 
         while (temp != head); 
     } 
-}
+}*/
 
 //Prosedur table_ngram, dengan inisiasi struct n_gram *head=NULL;
 void table_ngram(char **w,int tingkat,int n,struct n_gram **head_ref){
