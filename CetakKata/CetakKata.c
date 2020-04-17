@@ -3,13 +3,13 @@
 #include <string.h>
 #include <time.h>
 
-void CetakKata(int n)
+void CetakKata(int nkata, struct n_gram)
 {
-    int kataawalacak, k, i, j, pilihrandomvalue, jumlahrandom;
+    int kataawalacak, k, i, j, pilihrandomvalue, tingkat;
     char kata_dicetak;
     kataawalacak=rand()%i+1;//i ini indeksnya si key milih key random dulu buat awalan
     printf("...");
-    for(k=0;k<(jumlahrandom-n);k++)//k ini indeks untuk menghitung jumlah kata random yang tercetak
+    for(k=0;k<(nkata-tingkat);k++)//k ini indeks untuk menghitung jumlah kata random yang tercetak
     {
         if (n_gram.value[i]==1)//jika di value cuma ada 1 nilai maka mencetak nilai selanjutnya diambil dari value yg diincrement
         {
