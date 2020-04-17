@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <time.h>
+#include "CetakKata.h"
 
 char CetakKata(int nkata, struct n_gram *ambiltabel)
 {
