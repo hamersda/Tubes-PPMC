@@ -1,3 +1,12 @@
+/* EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020
+* MODUL 9 - TUGAS BESAR
+* Kelompok : 2
+* Hari dan Tanggal : Jumat, 10 April 2020
+* Asisten (NIM) : Devi Tara Avalokita (18316024)
+* Nama File : PecahKata.c
+* Deskripsi : Program untuk memecah kalimat menjadi kata
+*/
+
 #include <stdio.h>
 #include <string.h>
 
