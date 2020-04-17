@@ -22,7 +22,7 @@ char * PecahKata( char *kata)
             j++;
         }
     }
-    return array_words;
+    return 0;
 }
 
 
