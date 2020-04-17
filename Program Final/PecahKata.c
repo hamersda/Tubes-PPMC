@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
+
 
 char PecahKata( char *kata)
 {
@@ -22,7 +22,7 @@ char PecahKata( char *kata)
             j++;
         }
     }
-    return array_words;
+    return 0;
 }
 
 
