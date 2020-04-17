@@ -3,7 +3,7 @@
 #include <string.h>
 #include "CetakKata.h"
 
-char CetakKata(int nkata, struct n_gram *ambiltabel)
+void CetakKata(int nkata, struct n_gram *ambiltabel)
 {
     int kataawalacak, k, i, j, pilihrandomvalue, tingkat;
     char kata_dicetak;
